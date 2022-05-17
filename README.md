@@ -1,14 +1,14 @@
 # Budget Tracker (PWA)
 
 ## Description
-
-Budget Tracker is a progressive web application that allows users to track their budgets by adding expenses and deposits to their budget through the "Add/Subtract Funds" buttons. They are able to add a transaction with or without a connection. When a user enters a transaction while offline, these transactions are stored in the indexedDB, and transferred to the database when the user comes back online.
+Budget Tracker is a progressive web application that allows users to manage their budgets by using the "Add/Subtract Funds" buttons to add costs and deposits to their budget. They can add a transaction whether or not there is a relationship. When a user initiates a transaction while offline, it is saved in the indexedDB and then transmitted to the database when the user reconnects.
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Usage](#example-usage)
+- [Offline](#Offline)
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -17,19 +17,20 @@ Budget Tracker is a progressive web application that allows users to track their
 
 To install the required dependencies, run `npm install`
 
-This package assumes there is a MongoDB server running on localhost:27017. If your server is running somewhere else, you can edit `server.js` to reflect that.
-
 ## Usage
 
-To start the server, run `npm start`. To access the app after starting the server, go to http://localhost:3000 in your browser.
+To start the server, run `npm start`. To access the app after starting the server, go to http://localhost:3001 in your browser.
 
 ## Example Usage
 
-Deployed App: https://immense-escarpment-03497.herokuapp.com/
+Deployed App: https://secure-island-29380.herokuapp.com/
 
 An example screenshot of the application is below.
 
-![screenshot](assets/screenshot.jpg)
+![screenshot](images/homepage.png)
+
+## Offline
+![screenshot](images/offlinemode.png)
 
 ## License
 
@@ -41,4 +42,4 @@ If you want to contribute, open a Pull Request and include a detailed descriptio
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact [ryan-harris](https://github.com/ryan-harris) directly at harris.ucla@gmail.com.
+If you have any questions about the repo, open an issue or contact https://github.com/Clos01 or @Cjrivas00@gmail.com    
